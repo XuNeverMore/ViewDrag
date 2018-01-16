@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <com.xunevermore.viewdrag.MyView
+       android:padding="10dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:textColor="#fff"
+           android:gravity="center"
+           android:text="1"
+           android:background="@color/colorPrimary"
+           android:layout_width="100dp"
+           android:layout_height="100dp" />
+       <TextView
+           android:text="2"
+           android:background="@color/colorAccent"
+           android:textColor="#fff"
+           android:gravity="center"
+           android:layout_width="100dp"
+           android:layout_height="100dp" />
+
+       <TextView
+
+           android:textColor="#fff"
+           android:gravity="center"
+           android:text="1"
+           android:layout_gravity="center_horizontal"
+           android:background="@color/colorPrimary"
+           android:layout_width="100dp"
+           android:layout_height="100dp" />
+
+
+   </com.xunevermore.viewdrag.MyView>
+
+
+</LinearLayout>
